@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adicione o link para o Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Importe o seu arquivo SCSS -->
+    <link rel="stylesheet" href="./styles/main.scss">
+    <title>Document</title>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                O aniversário da Fernanda começa em<br><span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos m-0">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Chácara Jambeiro - Estrada do Jambeiro S/N
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Festa</b>
+                        Temática
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/04/2024 às 19hrs
+                    </li>
+                </ul>
+                
+                <div>
+                    <a href="#message" class="button btn btn-danger text-center d-flex align-items-center">Parabenizar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="message" class="birthday-wishes">
+        <div class="container">
+            <h2 class="section-title text-center">Deixe sua mensagem para Fernanda</h2>
+            <form class="birthday-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Seu Nome:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Sua Mensagem:</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+    <section class="comments">
+        <div class="container">
+            <h2 class="section-title text-center">Comentários dos Convidados</h2>
+            <div class="comment">
+                <div class="comment-user">
+                    <span class="bi bi-person-circle fs-3 me-2"></span>
+                    <span class="username">João Silva</span>
+                </div>
+                <p class="comment-message">Parabéns, Fernanda! Que seu dia seja repleto de alegria e momentos felizes!</p>
+            </div>
+            <div class="comment">
+                <div class="comment-user">
+                    <span class="bi bi-person-circle fs-3 me-2"></span>
+                    <span class="username">Maria Oliveira</span>
+                </div>
+                <p class="comment-message">Feliz aniversário, Fernanda! Que esta data especial seja marcada por muitas realizações e sorrisos.</p>
+            </div>
+            <div class="comment">
+                <div class="comment-user">
+                    <span class="bi bi-person-circle fs-3 me-2"></span>
+                    <span class="username">Pedro Santos</span>
+                </div>
+                <p class="comment-message">Fernanda, que a vida continue sorrindo e presenteando você com as melhores graças. Feliz aniversário!</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+
+    <!-- Adicione os scripts do Bootstrap e do jQuery (se necessário) no final do corpo do documento -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

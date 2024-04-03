@@ -1,0 +1,48 @@
+.birthday-wishes {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.birthday-form {
+    max-width: 600px;
+    margin: 0 auto;
+    input, textarea {
+        background-color: rgb(138, 186, 231);
+    }
+
+}
+
+
+.comments {
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+
+.comment {
+    margin-bottom: 30px;
+}
+
+.comment-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.comment-message {
+    font-size: 16px;
+}
